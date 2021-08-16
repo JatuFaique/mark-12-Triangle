@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mark12</title>
+    <title>hypoten calculator</title>
 </head>
 <body>
     <nav>
@@ -23,15 +23,26 @@
             </li>
         </ul>
     </nav>
-    <h1>Fun with Triangle </h1>
-    <label for="angle1">angle1</label>
-    <input type="number" class='angle-input'/>
-    <label for="angle2">angle2</label>
-    <input type="number" class='angle-input'/>
-    <label for="angle3">angle3</label>
-    <input type="number" class='angle-input'/>
-    <button id="is-triangle-btn">Is Triangle</button>
-    <div id="output"></div>
-    <script src="istriangle.js"></script>
+    <h1>Area Calculator</h1>
+    <p>DO you want to calculate what is the lengtn of your Area?</p>
+    <p>Tell us your Side Measures.</p>
+    <br/>
+    <label>
+        Base
+        <input type="number" class="side-input">
+    </label>
+    <label>
+        Height
+        <input type="number" class="side-input">
+    </label>
+
+    <button id="submit-btn">Caliculate</button>
+
+    <div id="output">
+    </div>
+    <script src="triarea.js"></script>
+
+
+    
 </body>
 </html>
