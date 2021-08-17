@@ -13,22 +13,36 @@ hr {
 .container {
   text-align: center;
   color: white;
-  font-size: 5rem;
+  /* font-size: 64px; */
+  /* font-weight: bold; */
+}
+
+.container h1 {
   font-weight: bold;
 }
 
-.container-center {
-  text-align: center;
-  color: white;
+.container h1 {
+  font-size: 64px;
+  padding-top: 10px;
 }
 
 .nav {
   background-color: #3f0008;
 }
 
+.nav .link {
+  color: white;
+  font-weight: lighter;
+}
+
+.nav .link-active {
+  font-weight: bolder;
+}
+
 .list-inline {
   display: inline;
   align-items: center;
   color: white;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
+  padding: 0rem 0.5rem;
 }

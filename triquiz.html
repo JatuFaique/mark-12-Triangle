@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet"/>
     <title>quiz trianhle</title>
 </head>
 <body>
-    <nav>
+    <div class="container">
+        <h1>Fun With Triangle</h1>
+    </div>
+    <hr/>
+    <nav class="nav container">
         <ul>
-            <li>
-                <a href="/index.html" >Does you angle Make a Triangel</a>
+            <li class="list-inline">
+                <a class="link" href="/component.html" >Does you angle Make a Triangel</a>
             </li>
-            <li>
-                <a href="/triquiz.html">Take a quiz</a>
+            <li class="list-inline">
+                <a class="link link-active" href="/triquiz.html">Take a quiz</a>
             </li>
-            <li>
-                <a href="/hypoten.html">Calculate hypo</a>
+            <li class="list-inline">
+                <a class="link" href="/hypoten.html">Calculate hypo</a>
             </li>
-            <li>
-                <a href="/triarea.html">Triangle area</a>
+            <li class="list-inline">
+                <a class="link" href="/triarea.html">Triangle area</a>
             </li>
         </ul>
     </nav>
+    <div class="container">
     <h1>Triangle Quz</h1>
 
     <form class="quiz-form">
@@ -47,5 +53,6 @@
     <button id="submit-answer-btn">Submit Answer</button>
     <div id="outputEl"></div>
     <script src="triquiz.js"></script>
+    </div>
 </body>
 </html>

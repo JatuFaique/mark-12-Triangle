@@ -9,24 +9,37 @@
 </head>
 <body>
     <div class="container">
-        <p>Fun With Triangle</p>
+        <h1>Fun With Triangle</h1>
     </div>
     <hr/>
-    <nav class="nav container-center">
+    <nav class="nav container">
         <ul>
             <li class='list-inline' >
-                <a href="/index.html" >Does you angle Make a Triangel</a>
+                <a class='link link-active' href="/component.html" >Does you angle Make a Triangel</a>
             </li>
             <li class='list-inline'>
-                <a href="/triquiz.html">Take a quiz</a>
+                <a class='link' href="/triquiz.html">Take a quiz</a>
             </li>
             <li class='list-inline'>
-                <a href="/hypoten.html">Calculate hypo</a>
+                <a class='link' href="/hypoten.html">Calculate hypo</a>
             </li>
             <li class='list-inline'>
-                <a href="/triarea.html">Triangle area</a>
+                <a class='link' href="/triarea.html">Triangle area</a>
             </li>
         </ul>
     </nav>
+    <div class="container">
+        <h3>Fun with Triangle </h3>
+        <label for="angle1">angle1</label>
+        <input type="number" class='angle-input'/>
+        <label for="angle2">angle2</label>
+        <input type="number" class='angle-input'/>
+        <label for="angle3">angle3</label>
+        <input type="number" class='angle-input'/>
+        <button id="is-triangle-btn">Is Triangle</button>
+        <div id="output"></div>
+        <script src="istriangle.js"></script>
+
+    </div class="container">
 </body>
 </html>
