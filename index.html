@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mark12</title>
+    <link href="/style.css" rel="stylesheet"/>
+    <title>Component</title>
 </head>
 <body>
-    <nav>
+    <div class="container">
+        <h1>Fun With Triangle</h1>
+    </div>
+    <hr/>
+    <nav class="nav container">
         <ul>
-            <li>
-                <a href="/index.html" >Does you angle Make a Triangel</a>
+            <li class='list-inline' >
+                <a class='link link-active' href="/component.html" >Does you angle Make a Triangel</a>
             </li>
-            <li>
-                <a href="/triquiz.html">Take a quiz</a>
+            <li class='list-inline'>
+                <a class='link' href="/triquiz.html">Take a quiz</a>
             </li>
-            <li>
-                <a href="/hypoten.html">Calculate hypo</a>
+            <li class='list-inline'>
+                <a class='link' href="/hypoten.html">Calculate hypo</a>
             </li>
-            <li>
-                <a href="/triarea.html">Triangle area</a>
+            <li class='list-inline'>
+                <a class='link' href="/triarea.html">Triangle area</a>
             </li>
         </ul>
     </nav>
     <div class="container">
-    <h1>Fun with Triangle </h1>
-    <label for="angle1">angle1</label>
-    <input type="number" class='angle-input'/>
-    <label for="angle2">angle2</label>
-    <input type="number" class='angle-input'/>
-    <label for="angle3">angle3</label>
-    <input type="number" class='angle-input'/>
-    <button id="is-triangle-btn">Is Triangle</button>
-    <div id="output"></div>
-    <script src="istriangle.js"></script>
-    </div>
+        <h1>Fun with Triangle </h1>
+        <label for="angle1">angle1</label>
+        <input type="number" class='angle-input'/>
+        <label for="angle2">angle2</label>
+        <input type="number" class='angle-input'/>
+        <label for="angle3">angle3</label>
+        <input type="number" class='angle-input'/>
+        <button id="is-triangle-btn">Is Triangle</button>
+        <div id="output"></div>
+        <script src="istriangle.js"></script>
+
+    </div class="container">
 </body>
 </html>
