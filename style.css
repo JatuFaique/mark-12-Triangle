@@ -46,3 +46,43 @@ hr {
   /* padding-left: 1rem; */
   padding: 0rem 0.5rem;
 }
+
+.footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  color: white;
+  padding: 2rem 1rem;
+  border-top-right-radius: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-text {
+  font-weight: bold;
+  font-size: large;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+#output {
+  padding: 1.5rem 1rem;
+}
+
+#submit-answer-btn {
+  margin: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}

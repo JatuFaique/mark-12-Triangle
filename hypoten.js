@@ -1,6 +1,6 @@
 var side1 = document.querySelectorAll('.side-input')
 
-var subbtn = document.querySelector('#submit-btn')
+var subbtn = document.querySelector('#submit-answer-btn')
 
 var outputEL = document.querySelector('#output')
 

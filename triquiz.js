@@ -1,6 +1,6 @@
 const quizForm = document.querySelector('.quiz-form')
 const submitAnswerBtn = document.querySelector('#submit-answer-btn')
-const outputEL = document.querySelector('#outputEl')
+const outputEL = document.querySelector('#output')
 
 
 const correctAnswers = ['90', 'right']
@@ -16,7 +16,7 @@ function calculateScores() {
         }
         index=index+1;
     }
-    outputEL.innerHTML = score
+    outputEL.innerHTML = "<h3>Your score is </h3>"+score;
 
 }
 
