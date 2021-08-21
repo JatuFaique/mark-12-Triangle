@@ -16,7 +16,7 @@ function calculateHypo(){
     sq = calculateSumofSquare(Number(side1[0].value),Number(side1[1].value));
     sqrt = Math.sqrt(sq);
     console.log(sqrt);
-    outputEL.innerHTML = "<h1>"+sqrt+"</h1>"
+    outputEL.innerHTML = "<h3>"+"The length of hypotenuse is "+sqrt+"</h3>"
 
 }
 
