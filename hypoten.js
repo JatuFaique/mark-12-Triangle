@@ -15,8 +15,8 @@ function calculateSumofSquare(a,b){
 function calculateHypo(){
     sq = calculateSumofSquare(Number(side1[0].value),Number(side1[1].value));
     sqrt = Math.sqrt(sq);
-    console.log(sqrt);
-    outputEL.innerHTML = "<h3>"+"The length of hypotenuse is "+sqrt+"</h3>"
+    //console.log(sqrt);
+    outputEL.innerHTML = "<h3>"+"The length of hypotenuse is "+Math.round(sqrt)+"</h3>"
 
 }
 
